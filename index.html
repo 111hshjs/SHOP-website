@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Cosplay Shop</title>
+		<!-- <script src="https://unpkg.com/vue@next"></script> -->
+		<script src="js/v3.2.8/vue.global.prod.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+		<link rel="stylesheet" href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css" />
+		<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+	<body>
+		<!-- header section starts -->
+		<header>
+			<div id="menu-bar" class="fas fa-bars"></div>
+			
+			<a href="#" class="logo">COSPLAY</a>
+			
+			<nav class="navbar">
+				<a href="#home">HOME</a>
+				<a href="#allproducts">PRODUCTS</a>
+				<a href="#review">REVIEW</a>
+				<a href="#contact">CONTACT</a>
+				<a href="#about">ABOUT</a>
+			</nav>
+			
+			<div class="icons">
+				<div id="search-btn" class="fas fa-search"></div>
+				<div id="cart-btn" class="fas fa-shopping-cart"></div>
+				<div id="login-btn" class="fas fa-user"></div>
+			</div>
+			
+			<form action="" class="search-form">
+				<input type="search" placeholder="search here..." id="search-box" />
+				<label for="search-box" class="fas fa-search"></label>
+			</form>
+			
+			<div class="shopping-cart">
+				<div class="box">
+					<i class="fas fa-times"></i>
+					<img src="img/image/costume5.jpg" alt="" />
+					<div class="content">
+						<h3>Identity V/Psychologist/Long Night</h3>
+						<span class="quantity">1</span>
+						<span class="multiply">X</span>
+						<span class="price">$61.50</span>
+					</div>
+				</div>
+				<div class="box">
+					<i class="fas fa-times"></i>
+					<img src="img/image/wig1.jpg" alt="" />
+					<div class="content">
+						<h3>Identity V/Psychologist/Long Night</h3>
+						<span class="quantity">1</span>
+						<span class="multiply">X</span>
+						<span class="price">$20.50</span>
+					</div>
+				</div>
+				<div class="box">
+					<i class="fas fa-times"></i>
+					<img src="img/image/other6.jpg" alt="" />
+					<div class="content">
+						<h3>Cos nails</h3>
+						<span class="quantity">1</span>
+						<span class="multiply">X</span>
+						<span class="price">$1.50</span>
+					</div>
+				</div>
+				<h3 class="total"> total : <span>$83.50</span></h3>
+				<a href="#" class="btn">checkout cart</a>
+			</div>
+			
+			<form action="" class="login-form">
+				<h3>login form</h3>
+				<input type="email" placeholder="enter your email" class="box" />
+				<input type="password" placeholder="enter your password" class="box" />
+				<div class="remember">
+					<input type="checkbox" name="" id="remember-me" />
+					<label for="remember-me">remember me</label>
+				</div>
+				<input type="submit" value="login now" class="btn" />
+				<p>forget password? <a href="#">click here</a></p>
+				<p>don't have an account? <a href="#">create one</a></p>
+			</form>
+			
+		</header>
+		<!-- header section ends -->
+		
+		<!-- home section starts -->
+		<section class="home" id="home">
+			<div class="slide-container active">
+				<div class="slide">
+					<div class="content">
+						<span>Identity V·The Promised Day</span>
+						<h3>Cosplay Costume</h3>
+						<p>The Promised Day is a skin for Bloody Queen in Identity V. This cosplay costume uses a large area of ​​pure white, paired with exquisite rose embroidery and delicate fabrics, perfectly restoring the design details in the game and showing the noble temperament of Bloody Queen.</p>
+						<a href="#" class="btn">See more</a>
+					</div>
+					<div class="image">
+						<img src="img/image/The promised day.png" class="commodity" alt="">
+						<img src="img/image/HOT.png" class="text" alt="">
+					</div>
+				</div>
+			</div>
+			
+			<div class="slide-container">
+				<div class="slide">
+					<div class="content">
+						<span>Identity V·Long Night</span>
+						<h3>Cosplay Wig</h3>
+						<p>Long Night is a skin for the psychologist in Identity V. This wig is made of high-temperature silk, with high simulation and durability. It not only shows the character's elegant temperament, but also reveals a hint of mystery and calmness.‌</p>
+						<a href="#" class="btn">See more</a>
+					</div>
+					<div class="image">
+						<img src="img/image/long night.png" class="commodity" alt="">
+						<img src="img/image/HOT.png" class="text" alt="">
+					</div>
+				</div>
+			</div>
+			
+			<div class="slide-container">
+				<div class="slide">
+					<div class="content">
+						<span>Demon Slayer·Nichirin Sword</span>
+						<h3>Cosplay Props</h3>
+						<p>The Nichirin Sword is a prop used by the Demon Slayer Corps in the anime Demon Slayer: Kimetsu no Yaiba. Nichirin Sword cosplay props are usually made of high-quality alloy and wood materials to ensure a realistic appearance and safe use.</p>
+						<a href="#" class="btn">See more</a>
+					</div>
+					<div class="image">
+						<img src="img/image/proplica.png" class="commodity" alt="">
+						<img src="img/image/HOT.png" class="text" alt="">
+					</div>
+				</div>
+			</div>
+			
+			<div id="prev" class="fas fa-chevron-left" onclick="prev()"></div>
+			<div id="next" class="fas fa-chevron-right" onclick="next()"></div>
+			
+		</section>
+		<!-- home section ends -->
+		
+		<!-- service section starts -->
+		<section class="service">
+			<div class="box-container">
+				
+				<div class="box">
+					<i class="fas fa-shipping-fast"></i>
+					<h3>Fast Delivery</h3>
+					<p>Shipped within 24 hours after the order is placed, and delivered to your hands as soon as possible.</p>
+				</div>
+				
+				<div class="box">
+					<i class="fas fa-undo"></i>
+					<h3>10 Days Replacement</h3>
+					<p>Due to quality problems, it will be replaced within 10 days, so there is no need to worry about after-sales.</p>
+				</div>
+				
+				<div class="box">
+					<i class="fas fa-headset"></i>
+					<h3>24 X 7 Support</h3>
+					<p>Got a question? Feel free to contact us for 24-hour service.</p>
+				</div>
+				
+			</div>
+		</section>
+		<!-- service section ends -->
+		
+		<!-- products section starts -->
+		<section class="allproducts" id="allproducts">
+			<h1 class="heading"> latest <span>products</span> </h1>
+			
+			<div class="filters d-flex">
+				<div data-filter="Costumes">Costumes</div>
+				<div data-filter="Wigs">Wigs</div>
+				<div data-filter="Props">Props</div>
+				<div data-filter="Others">Others</div>
+			</div>
+			
+			<div class="products container">
+				<div class="swiper mySwiper">
+					<div class="swiper-wrapper" id="products">
+						<!-- <div class="swiper-slide">
+					        <div class="product">
+								<div class="top d-flex">
+									<div class="image">
+										<img src="img/image/The promised day.png" alt="" />
+									</div>
+									<div class="icon d-flex">
+										<a href="#" class="fas fa-shopping-cart"></a>
+										<a href="#" class="fas fa-heart"></a>
+										<a href="#" class="fas fa-eye"></a>
+									</div>
+								</div>
+								
+								<div class="bottom">
+									<h4>Identity V/Bloody Queen/The Promised Day</h4>
+									<div class="d-flex">
+										<div class="price">$90</div>
+										<div class="rating">
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+										</div>
+									</div>
+								</div>
+							</div> 
+						</div> -->
+					</div>
+				</div>
+				<div class="pagination">
+					<div class="custom-pagination"></div>
+				</div>
+				<div class="viewall">
+					<a href="#" class="btn">View all</a>
+				</div>
+			</div>
+		</section>
+		<!-- products section starts -->
+		
+		<!-- review section starts -->
+		<section class="review" id="review">
+			<h1 class="heading"> customer's <span>review</span> </h1>
+			
+			<div class="box-container">
+				
+				<div class="box">
+					<div class="stars">
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+					</div>
+					<p>The quality of the costumes exceeded my expectations! The material is comfortable, the workmanship is exquisite, and the details of the characters are fully restored. I am really satisfied!</p>
+					<div class="user">
+						<img src="img/image/avatar-1.png" alt="" />
+						<div class="user-info">
+							<h3>Norton</h3>
+							<span>happy customer</span>
+						</div>
+					</div>
+					<span class="fas fa-quote-right"></span>
+				</div>
+				
+				<div class="box">
+					<div class="stars">
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+					</div>
+					<p>The store also provides a customized service, which can be perfectly adjusted according to my height and body shape, and the effect is great!</p>
+					<div class="user">
+						<img src="img/image/avatar-2.png" alt="" />
+						<div class="user-info">
+							<h3>Mitsuri</h3>
+							<span>happy customer</span>
+						</div>
+					</div>
+					<span class="fas fa-quote-right"></span>
+				</div>
+				
+				<div class="box">
+					<div class="stars">
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+					</div>
+					<p>The overall experience is very good! The clothing details, logistics speed and customer service are all great. I will buy again in the future!</p>
+					<div class="user">
+						<img src="img/image/avatar-3.png" alt="" />
+						<div class="user-info">
+							<h3>Ran</h3>
+							<span>happy customer</span>
+						</div>
+					</div>
+					<span class="fas fa-quote-right"></span>
+				</div>
+			</div>
+			<div class="review-btn">
+				<a href="#" class="btn">See more</a>
+			</div>
+		</section>
+		<!-- review section ends -->
+		
+		<!-- contact section starts -->
+		<section class="contact" id="contact">
+			<h1 class="heading"><span>contact</span> us </h1>
+			
+			<div class="row">
+				<form action="">
+					<input type="text" placeholder="name" class="box"/>
+					<input type="email" placeholder="email" class="box"/>
+					<input type="number" placeholder="number" class="box"/>
+					<textarea name="" class="box" placeholder="message" id="" cols="30" rows="10"></textarea>
+					<input type="submit" value="Send Message" class="btn" />
+				</form>
+				
+				<div class="image">
+					<img src="img/image/bk2.png" alt="" />
+				</div>
+				
+			</div>
+		</section>
+		<!-- contact section ends -->
+		
+		<!-- about section starts -->
+		<section class="about" id="about">
+			<h1 class="heading"><span> ABOUT </span> US </h1>
+			
+			<div class="row">
+				<div class="video-container">
+					<video src="img/image/video.mp4" loop autoplay muted></video>
+					<h3>best cosplay sellers</h3>
+				</div>
+				
+				<div class="content">
+					<h3>why choose us?</h3>
+					<p>Choose us, you will experience high-quality Cosplay products and considerate services. We focus on restoring the details of the characters. Every costume and prop is carefully designed and strictly controlled to ensure that you become the most dazzling presence in the comic exhibition or photo shoot.</p>
+					<p>At the same time, we provide professional size guidance, fast delivery and 7×24 hours customer support to make your shopping process worry-free. Whether you are a novice player or a senior Coser, this is your first choice for pursuing perfection!</p>
+				    <a href="#" class="btn">learn more</a>
+				</div>
+				
+			</div>
+			
+		</section>
+		
+		
+		
+		
+		<!-- about section ends -->
+		
+		<!-- footer starts -->
+		<section class="footer">
+			<div class="box-container">
+				
+				<div class="box">
+					<h3>Quick Links</h3>
+					<a href="#">home</a>
+					<a href="#">products</a>
+					<a href="#">review</a>
+					<a href="#">contact</a>
+					<a href="#">about</a>
+				</div>
+				
+				<div class="box">
+					<h3>Extra Links</h3>
+					<a href="#">my account</a>
+					<a href="#">my order</a>
+					<a href="#">my favorite</a>
+				</div>
+				
+				<div class="box">
+					<h3>Locations</h3>
+					<a href="#">china</a>
+					<a href="#">malaysia</a>
+					<a href="#">USA</a>
+					<a href="#">japan</a>
+					<a href="#">france</a>
+				</div>
+				
+				<div class="box">
+					<h3>Contact info</h3>
+					<a href="#">+60-123-456-789</a>
+					<a href="#">example@gmail.com</a>
+					<a href="#">beijing, china - 100000</a>
+					<img src="img/image/payment.png" alt="" />
+				</div>
+			</div>
+			
+			<div class="credit"> created by <span> Miss ZHANG </span> | all rights reserved </div>
+			
+		</section>
+		<!-- footer section ends -->
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+		<script src="js/script.js"></script>
+		<script src="js/main.js"></script>
+		<script src="js/product.js"></script>
+		
+	</body>
+</html>

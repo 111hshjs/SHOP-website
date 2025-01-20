@@ -1,0 +1,193 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Identity V/Bloody Queen/The Promised Day",
+      "price": "79.99",
+      "url": "./img/image/costume1.jpg",
+      "category": "Costumes"
+    },
+    {
+      "id": 2,
+      "title": "Meitantei Conan/Mouri Ran/School uniform",
+      "price": "30.00",
+      "url": "./img/image/costume2.jpg",
+      "category": "Costumes"
+    },
+    {
+      "id": 3,
+      "title": "Identity V/Acrobat/Prayer for Rain Beads",
+      "price": "72.15",
+      "url": "./img/image/costume3.jpg",
+      "category": "Costumes"
+    },
+    {
+      "id": 4,
+      "title": "Demon Slayer/Lguro Obanai/Demon Slaying Corps Uniform",
+      "price": "40.00",
+      "url": "./img/image/costume4.jpg",
+      "category": "Costumes"
+    },
+    {
+      "id": 5,
+      "title": "Identity V/Psychologist/Long Night",
+      "price": "61.50",
+      "url": "./img/image/costume5.jpg",
+      "category": "Costumes"
+    },
+    {
+      "id": 6,
+      "title": "Identity V/Patient/Rare Cases",
+      "price": "60.05",
+      "url": "./img/image/costume6.jpg",
+      "category": "Costumes"
+    },
+    {
+      "id": 7,
+      "title": "Identity V/Hullabaloo/King of Stars",
+      "price": "43.68",
+      "url": "./img/image/costume7.jpg",
+      "category": "Costumes"
+    },
+    {
+      "id": 8,
+      "title": "Identity V/Psychologist/Long Night",
+      "price": "20.50",
+      "url": "./img/image/wig1.jpg",
+      "category": "Wigs"
+    },
+    {
+      "id": 9,
+      "title": "Identity V/Patient/Rare Cases",
+      "price": "13.65",
+      "url": "./img/image/wig2.jpg",
+      "category": "Wigs"
+    },
+    {
+      "id": 10,
+      "title": "Meitantei Conan/Mouri Ran/Routine",
+      "price": "24.57",
+      "url": "./img/image/wig3.jpg",
+      "category": "Wigs"
+    },
+    {
+      "id": 11,
+      "title": "Identity V/Acrobat/Prayer for Rain Beads",
+      "price": "15.00",
+      "url": "./img/image/wig4.jpg",
+      "category": "Wigs"
+    },
+    {
+      "id": 12,
+      "title": "Demon Slayer/Kanroji Mitsuri/Routine",
+      "price": "38.22",
+      "url": "./img/image/wig5.jpg",
+      "category": "Wigs"
+    },
+    {
+      "id": 13,
+      "title": "Shugo Chara!/Hinamori Amu/Routine",
+      "price": "9.90",
+      "url": "./img/image/wig6.jpg",
+      "category": "Wigs"
+    },
+    {
+      "id": 14,
+      "title": "Black Butler/Ciel Phantomhive/Wear Women's Clothing",
+      "price": "17.75",
+      "url": "./img/image/wig7.jpg",
+      "category": "Wigs"
+    },
+    {
+      "id": 15,
+      "title": "Demon Slayer/Demon Slaying Corps/Nichirin Sword",
+      "price": "20.50",
+      "url": "./img/image/prop1.jpg",
+      "category": "Props"
+    },
+    {
+      "id": 16,
+      "title": "Shugo Chara!/Hinamori Amu/Guardian Egg",
+      "price": "8.19",
+      "url": "./img/image/prop2.jpg",
+      "category": "Props"
+    },
+	{
+	  "id": 17,
+	  "title": "Cardcaptor Sakura/Kinomoto Sakura/Sealing Wand",
+	  "price": "9.55",
+	  "url": "./img/image/prop3.jpg",
+	  "category": "Props"
+	},
+	{
+	  "id": 18,
+	  "title": "Shugo Chara!/Hinamori Amu/Bag",
+	  "price": "5.46",
+	  "url": "./img/image/prop4.jpg",
+	  "category": "Props"
+	},
+	{
+	  "id": 19,
+	  "title": "Honor of Kings/Xiao Qiao/Weapon",
+	  "price": "12.28",
+	  "url": "./img/image/prop5.jpg",
+	  "category": "Props"
+	},
+	{
+	  "id": 20,
+	  "title": "Honor of Kings/Gongsun Li/Umbrella",
+	  "price": "10.92",
+	  "url": "./img/image/prop6.jpg",
+	  "category": "Props"
+	},
+	{
+	  "id": 21,
+	  "title": "Color contact lenses(Green)",
+	  "price": "4.09",
+	  "url": "./img/image/other1.jpg",
+	  "category": "Others"
+	},
+	{
+	  "id": 22,
+	  "title": "Elf ears",
+	  "price": "1.50",
+	  "url": "./img/image/other2.jpg",
+	  "category": "Others"
+	},
+	{
+	  "id": 23,
+	  "title": "Body oil paint",
+	  "price": "6.82",
+	  "url": "./img/image/other3.jpg",
+	  "category": "Others"
+	},
+	{
+	  "id": 24,
+	  "title": "Color contact lenses(White)",
+	  "price": "4.50",
+	  "url": "./img/image/other4.jpg",
+	  "category": "Others"
+	},
+	{
+	  "id": 25,
+	  "title": "White false eyelashes",
+	  "price": "2.73",
+	  "url": "./img/image/other5.jpg",
+	  "category": "Others"
+	},
+	{
+	  "id": 26,
+	  "title": "Cos nails",
+	  "price": "1.50",
+	  "url": "./img/image/other6.jpg",
+	  "category": "Others"
+	},
+	{
+	  "id": 27,
+	  "title": "Reflective board",
+	  "price": "1.70",
+	  "url": "./img/image/other7.jpg",
+	  "category": "Others"
+	}
+  ]
+}
